@@ -1,0 +1,27 @@
+
+@use 'custom' as *;
+
+.container {
+    background-image: url(/images/bg-pattern-desktop.svg);
+}
+
+/* ------------------------ STYLING THE CONTENT AREA ------------------------ */
+#contentArea {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: $desaturatedRed;
+   
+    h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: 15px;
+        color: $darkGrayishRed;
+
+        i {
+            color: $desaturatedRed;
+            font-style: normal;
+            font-weight: 300;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+// MY THEME COLORS 
+
+$desaturatedRed: hsl(0, 36%, 70%);
+$softRed: hsl(0, 93%, 68%);
+$darkGrayishRed: hsl(0, 6%, 24%);
+
+
+$primary: hsl(0, 80%, 86%);
+$secondary: hsl(0, 74%, 74%);
+
+// BUTTON OVERRIDES 
+
+
+// WHITE AND GRAY COLORS 
+
+$white:    #fff ;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6; 
+$gray-400: #ced4da; 
+$gray-500: #adb5bd; 
+$gray-600: #6c757d; 
+$gray-700: #495057; 
+$gray-800: #343a40; 
+$gray-900: #212529; 
+$black:    #000; 
+
+
+
+// IMPORT BOOTSTRAP 5 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
