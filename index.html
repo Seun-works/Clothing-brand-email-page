@@ -9,39 +9,49 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,500;1,200;1,300&display=swap" rel="stylesheet">
   
+
+  
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 </head>
 <body>
   <div class="container">
     <div class="row">
+
       <!-- ----------------------------------------------------------------------- -->
       <!--                        CONTENT AREA OF THE PAGE                         -->
       <!-- ----------------------------------------------------------------------- -->
-      <div id="contentArea" class="col-6 pt-5">
-        <img src="images/logo.svg" alt="logo" class="pb-5 mb-5">
+      <div id="contentArea" class="col-lg-8 pt-5">
+        <div class="logo-mobile"><img src="./images/logo.svg" alt=""></div>
+        <img src="images/logo.svg" alt="logo" class="logo pb-5 mb-5">
+        <div class="mobile-image"></div>
         <h1> 
           <i>WE'RE</i> <br>
           COMING<br>
            SOON
           </h1> 
 
-        <p class="">Hello fellow shoppers! We're currently building our new fashion store. 
-        Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        <input type="email"  id="email" placeholder="Email address">
-        <button type="submit"><img id="button" src="/images/icon-arrow.svg" alt="arrow"></button>
-      </div>
+        <p id="info">Hello fellow shoppers! We're currently building our new<br> 
+          fashion store. Add your email below to stay up-to-date with<br> 
+          announcements and our launch deals.</p>
 
-      <!-- -------------------- HERO/PICTURE AREA OF THE PAGE -------------------- -->
-      <div id= "hero" class="col-6">
-        <img src="/images/hero-desktop.jpg" alt="heroDisplay" class="">
-
+        <!-- ------------------------- EMAIL FORM CONTENT AREA -------------------------- -->
+        <div class="col-lg-6 email-container">
+            <input type="email" placeholder="Email address" class="email-input">
+            <img src="./images/icon-error.svg" alt="Error icon" class="error-icon error">
+            <input type="button" name="submit" class="button" onclick="validateEmail()">
+        </div>
+        <p class="error-message error">Please provide a valid email.</p>
+        
+        </div>
+        
+        
+      <!-- -------------------- HERO OF THE PAGE -------------------- -->
+      <div id= "hero" class="col-lg-4">
+        <img class="rounded float-lg-end" src="images/hero-desktop.jpg" alt="heroDisplay">
       </div>
     </div>
   </div>
-
-  
-
-  
-  <script src="/assets/js/bootstrap.bundle.js"></script>
+  <script src="js/script.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,27 +1,173 @@
 
 @use 'custom' as *;
 
-.container {
-    background-image: url(/images/bg-pattern-desktop.svg);
-}
+* {
+    .logo-mobile {
+        display: none;
+    }
+
+} 
+
+
+body {
+    background-image: url('../../images/bg-pattern-desktop.svg');
+
+   
 
 /* ------------------------ STYLING THE CONTENT AREA ------------------------ */
 #contentArea {
+
+    .error {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     color: $desaturatedRed;
+    padding-right: 5%;
+    
    
     h1 {
         font-size: 3rem;
         font-weight: 600;
         letter-spacing: 15px;
         color: $darkGrayishRed;
+        justify-content: center;
+        padding-top: 2rem;
 
         i {
             color: $desaturatedRed;
             font-style: normal;
             font-weight: 300;
         }
+      
     }
+
+
+    #info {
+        padding-top: 2.5rem;
+        line-height: 30px;
+        text-align: justify;
+    }
+
+/* ---------------------------- STYLING THE EMAIL AREA ---------------------------- */
+
+    .email-container {
+        margin-top: 30px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .email-input {
+            border-radius: 25px;
+            border:1px hsl(0, 36%, 70%) solid;
+            outline: none;
+            height: 3rem;
+            width: 22rem;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .button {
+            height: 3.2rem;
+            width: 80px;
+            border-radius: 30px;
+            position: absolute;
+            background: url(../../images/icon-arrow.svg), linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+            background-repeat: no-repeat;
+            background-position: center;
+            border: none;
+            outline: none;
+            box-shadow: 0 4px 8px 0 hsla(0, 80%, 86%, 0.9), 0 6px 20px 0 hsla(0, 74%, 74%, 0.8);
+        }
+
+       
+
+        .error-icon {
+            position: absolute;
+            margin-left: -5.5rem;
+        }
+       
+    }
+
+    .error-message {
+        margin-top: 10px;
+        margin-left: 20px;
+        color:hsl(0, 93%, 68%);
+    }
+
+}
+}
+
+/* -------------------------- STYLING THE HERO AREA ------------------------- */
+#hero {
+    
+
+    img {
+        right: 0;
+        max-width: 100%;
+        position: fixed;
+        background-size: cover;
+    }
+}
+
+/* -------------------- STYLING FOR OTHER DEVICE SCREENS -------------------- */
+
+@media screen and (max-width: 545px){
+    body {
+        flex-direction: column;
+        justify-content: center;
+        overflow: visible;
+    }
+    #contentArea {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #info {
+        margin-top: 50px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    .image-container {
+        display: none;
+    }
+    .error-message {
+        align-self: flex-start;
+    }
+    .email-input {
+        width: 18rem;
+        align-self: center;
+        margin-right: 0px;
+    }
+    .button {
+        width: 70px;
+    }
+    .mobile-image {
+        width: 100%;
+        height: 50vh;
+        background-image: url('../../images/hero-mobile.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .logo {
+        display: none;
+    }
+    .logo-mobile {
+        display: flex;
+        margin: 20px;
+        justify-content: flex-start;
+    }
+
 }
