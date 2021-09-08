@@ -35,8 +35,8 @@ This is a screenshot of the project in it's desktop state.
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-email-page-using-bootstrap-javascript-sass-and-html-FvxAIxLMu]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-email-page-using-bootstrap-javascript-sass-and-html-FvxAIxLMu)
+- Live Site URL: [Live Site](https://seun-works.github.io/Clothing-brand-email-page/)
 
 ## My process
 
@@ -45,8 +45,8 @@ This is a screenshot of the project in it's desktop state.
 - Semantic HTML5 markup
 - CSS custom properties
 - Bootstrap-5
--Javascript
--sass
+- Javascript
+- Sass
 
 
 ### What I learned
@@ -65,13 +65,13 @@ All this block did was to check the contents of the input value for the @ sign i
 ### Continued development
 
 The site still has some responsive issues i wish to iron out in the near future, such as padding and the placeement of certain elements when changing screen sizes. I also want to be more comfortable in using a css framework like bootstrap in order to make my styling process much simpler.
-In summary, doing projects is the best way for me 
+
 
 
 ### Useful resources
 
-- [Example resource 1](hhttps://getbootstrap.com/docs/5.1/getting-started/introduction/) - The bootstrap documentation helped me in figuring out the layout of my site.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Bootstrap docs](hhttps://getbootstrap.com/docs/5.1/getting-started/introduction/) - The bootstrap documentation helped me in figuring out the layout of my site.
+
 
 
 ## Author
@@ -79,10 +79,8 @@ In summary, doing projects is the best way for me
 - Frontend Mentor - [@Seun-works](https://www.frontendmentor.io/profile/Seun-works)
 - LinkedIn - [@SeunOgundipe](https://www.linkedin.com/in/seun-ogundipe)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to thank teslaAmbassador, who gave me a way to style my site as i had to override bootstraps in-built properties. In summary, doing projects is the best way for me to learn and truly work towards being a better developer.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
