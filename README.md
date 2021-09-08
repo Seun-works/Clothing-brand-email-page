@@ -35,7 +35,7 @@ This is a screenshot of the project in it's desktop state.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-email-page-using-bootstrap-javascript-sass-and-html-FvxAIxLMu)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-email-page-using-bootstrap-javascript-sass-and-html-FvxAIxLMu]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
